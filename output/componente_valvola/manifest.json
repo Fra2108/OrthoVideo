@@ -1,0 +1,112 @@
+{
+  "source": "STEP",
+  "model": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\models\\componente_valvola.step",
+  "projection_method": "first_angle",
+  "main_view": {
+    "normal": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "drawing_scale": "1:5",
+  "views": {
+    "front": {
+      "visible": 92,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 9,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "rear": {
+      "visible": 96,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 9,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "top": {
+      "visible": 20,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 18,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "bottom": {
+      "visible": 42,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 18,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "right": {
+      "visible": 101,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 9,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "left": {
+      "visible": 101,
+      "hidden": 0,
+      "tangent": 0,
+      "center": 9,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    }
+  },
+  "section": {
+    "name": "A-A",
+    "source_view": "front",
+    "drawing_scale": "2:1",
+    "visible": 84,
+    "hidden": 0,
+    "center": 9,
+    "contours": 58,
+    "hatches": 49
+  },
+  "outputs": {
+    "svg": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\orthographic_sheet.svg",
+    "section_svg": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\section_A-A.svg",
+    "pdf": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\orthographic_sheet.pdf",
+    "dxf": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\orthographic_sheet.dxf",
+    "section_dxf": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\section_A-A.dxf",
+    "preview": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\animation\\orthovideo_preview.png",
+    "blend": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\animation\\orthovideo_animation.blend",
+    "mp4": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\componente_valvola\\animation\\orthovideo_animation.mp4"
+  }
+}

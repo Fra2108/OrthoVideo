@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="420.0mm"
+    height="297.0mm"
+    viewBox="0 0 420.0 297.0"
+>
+
+    <!-- FOGLIO -->
+    <rect
+        x="0"
+        y="0"
+        width="420.0"
+        height="297.0"
+        fill="white"
+    />
+
+    <!-- ASSI / CENTERLINES -->
+    <g
+        fill="none"
+        stroke="black"
+        stroke-width="0.18"
+        stroke-dasharray="8 2 1.5 2"
+        stroke-linecap="butt"
+        stroke-linejoin="round"
+    >
+        
+    </g>
+
+    <!-- LINEE NASCOSTE -->
+    <g
+        fill="none"
+        stroke="black"
+        stroke-width="0.18"
+        stroke-dasharray="3.5 2"
+        stroke-linecap="butt"
+        stroke-linejoin="round"
+    >
+        
+    </g>
+
+    <!-- LINEE VISIBILI -->
+    <g
+        fill="none"
+        stroke="black"
+        stroke-width="0.35"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <polyline points="20.0000,173.5000 20.0000,123.5000" /><polyline points="20.0000,123.5000 80.0000,123.5000" /><polyline points="20.0000,173.5000 80.0000,173.5000" /><polyline points="80.0000,173.5000 80.0000,123.5000" /><polyline points="100.0000,173.5000 100.0000,123.5000" /><polyline points="100.0000,173.5000 200.0000,173.5000" /><polyline points="100.0000,123.5000 200.0000,123.5000" /><polyline points="200.0000,173.5000 200.0000,123.5000" /><polyline points="280.0000,123.5000 220.0000,123.5000" /><polyline points="280.0000,173.5000 280.0000,123.5000" /><polyline points="220.0000,173.5000 220.0000,123.5000" /><polyline points="280.0000,173.5000 220.0000,173.5000" /><polyline points="400.0000,173.5000 400.0000,123.5000" /><polyline points="400.0000,123.5000 300.0000,123.5000" /><polyline points="400.0000,173.5000 300.0000,173.5000" /><polyline points="300.0000,173.5000 300.0000,123.5000" /><polyline points="100.0000,43.5000 200.0000,43.5000" /><polyline points="100.0000,43.5000 100.0000,103.5000" /><polyline points="200.0000,43.5000 200.0000,103.5000" /><polyline points="100.0000,103.5000 200.0000,103.5000" /><polyline points="100.0000,253.5000 100.0000,193.5000" /><polyline points="100.0000,193.5000 200.0000,193.5000" /><polyline points="100.0000,253.5000 200.0000,253.5000" /><polyline points="200.0000,253.5000 200.0000,193.5000" />
+    </g>
+
+    <!-- ETICHETTE TEMPORANEE -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="4"
+        fill="#777"
+    >
+        
+                <text
+                    x="50.000"
+                    y="179.500"
+                    text-anchor="middle"
+                >RIGHT</text>
+                
+                <text
+                    x="150.000"
+                    y="179.500"
+                    text-anchor="middle"
+                >FRONT</text>
+                
+                <text
+                    x="250.000"
+                    y="179.500"
+                    text-anchor="middle"
+                >LEFT</text>
+                
+                <text
+                    x="350.000"
+                    y="179.500"
+                    text-anchor="middle"
+                >REAR</text>
+                
+                <text
+                    x="150.000"
+                    y="109.500"
+                    text-anchor="middle"
+                >BOTTOM</text>
+                
+                <text
+                    x="150.000"
+                    y="259.500"
+                    text-anchor="middle"
+                >TOP</text>
+                
+    </g>
+
+</svg>

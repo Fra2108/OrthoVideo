@@ -1,0 +1,100 @@
+{
+  "source": "STEP",
+  "model": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\models\\valvula_teflon_ensamblaje.step",
+  "projection_method": "first_angle",
+  "main_view": {
+    "normal": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "drawing_scale": "1:5",
+  "views": {
+    "front": {
+      "visible": 334,
+      "hidden": 0,
+      "tangent": 80,
+      "center": 23,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 132,
+        "HATCH": 111
+      }
+    },
+    "rear": {
+      "visible": 253,
+      "hidden": 782,
+      "tangent": 81,
+      "center": 23,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "top": {
+      "visible": 294,
+      "hidden": 896,
+      "tangent": 86,
+      "center": 16,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "bottom": {
+      "visible": 285,
+      "hidden": 901,
+      "tangent": 85,
+      "center": 16,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "right": {
+      "visible": 62,
+      "hidden": 811,
+      "tangent": 14,
+      "center": 32,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    },
+    "left": {
+      "visible": 85,
+      "hidden": 798,
+      "tangent": 27,
+      "center": 32,
+      "annotations": {
+        "SYMMETRY": 0,
+        "PITCH": 0,
+        "SECTION_CUT": 0,
+        "HATCH": 0
+      }
+    }
+  },
+  "outputs": {
+    "svg": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\orthographic_sheet.svg",
+    "pdf": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\orthographic_sheet.pdf",
+    "dxf": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\orthographic_sheet.dxf",
+    "preview": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\animation\\orthovideo_preview.png",
+    "blend": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\animation\\orthovideo_animation.blend",
+    "mp4": "C:\\Users\\sager\\Documents\\Codex\\2026-08-29\\referenced-chatgpt-conversation-this-is-an\\work\\OrthoVideo\\output\\valvula_teflon\\animation\\orthovideo_animation.mp4"
+  }
+}

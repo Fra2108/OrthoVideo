@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orthovideo"
+version = "0.2.0"
+description = "Professional orthographic projection and animation generator"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cadquery-ocp",
+    "numpy",
+    "trimesh",
+    "scipy",
+    "networkx",
+    "rtree",
+    "reportlab",
+]
+
+[project.scripts]
+orthovideo = "orthovideo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,58 @@
+{
+  "source": "STEP",
+  "model": "C:\\Users\\sager\\Desktop\\OrthoVideo\\models\\test_part.step",
+  "projection_method": "first_angle",
+  "main_view": {
+    "normal": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "drawing_scale": "1:1",
+  "views": {
+    "front": {
+      "visible": 5,
+      "hidden": 5,
+      "center": 2
+    },
+    "rear": {
+      "visible": 5,
+      "hidden": 5,
+      "center": 2
+    },
+    "top": {
+      "visible": 4,
+      "hidden": 12,
+      "center": 1
+    },
+    "bottom": {
+      "visible": 4,
+      "hidden": 12,
+      "center": 1
+    },
+    "right": {
+      "visible": 4,
+      "hidden": 10,
+      "center": 1
+    },
+    "left": {
+      "visible": 4,
+      "hidden": 10,
+      "center": 1
+    }
+  },
+  "outputs": {
+    "svg": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\orthographic_sheet.svg",
+    "pdf": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\orthographic_sheet.pdf",
+    "dxf": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\orthographic_sheet.dxf",
+    "preview": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\animation\\orthovideo_preview.png",
+    "blend": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\animation\\orthovideo_animation.blend",
+    "mp4": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\project\\animation\\orthovideo_animation.mp4"
+  }
+}

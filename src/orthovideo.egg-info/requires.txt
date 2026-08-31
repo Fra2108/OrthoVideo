@@ -1,0 +1,7 @@
+cadquery-ocp
+numpy
+trimesh
+scipy
+networkx
+rtree
+reportlab

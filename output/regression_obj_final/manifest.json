@@ -1,0 +1,55 @@
+{
+  "source": "OBJ",
+  "model": "C:\\Users\\sager\\Desktop\\OrthoVideo\\models\\test_mesh.obj",
+  "projection_method": "first_angle",
+  "main_view": {
+    "normal": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "drawing_scale": "1:1",
+  "views": {
+    "front": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    },
+    "rear": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    },
+    "top": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    },
+    "bottom": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    },
+    "right": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    },
+    "left": {
+      "visible": 4,
+      "hidden": 0,
+      "center": 0
+    }
+  },
+  "outputs": {
+    "svg": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\regression_obj_final\\orthographic_sheet.svg",
+    "pdf": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\regression_obj_final\\orthographic_sheet.pdf",
+    "dxf": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\regression_obj_final\\orthographic_sheet.dxf"
+  }
+}

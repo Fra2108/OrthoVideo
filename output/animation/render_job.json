@@ -1,0 +1,17 @@
+{
+  "model_mesh": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\animation\\model_render.stl",
+  "main_normal": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "main_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "resolution_x": 1200,
+  "resolution_y": 900,
+  "output_file": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\animation\\main_view.png",
+  "blend_file": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\animation\\main_view.blend"
+}

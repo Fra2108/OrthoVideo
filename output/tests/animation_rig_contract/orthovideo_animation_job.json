@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "model_mesh": "C:\\Users\\sager\\Desktop\\OrthoVideo\\models\\test_mesh.obj",
+  "source_type": "step",
+  "main_normal": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "main_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "projection_method": "first_angle",
+  "rig": {
+    "type": "contiguous_first_angle_box",
+    "basis": {
+      "x": "main_right",
+      "y": "main_up",
+      "z": "main_normal"
+    },
+    "physical_faces": {
+      "front": "-Z",
+      "rear": "+Z",
+      "right": "-X",
+      "left": "+X",
+      "top": "-Y",
+      "bottom": "+Y"
+    },
+    "parents": {
+      "front": null,
+      "right": "front",
+      "left": "front",
+      "top": "front",
+      "bottom": "front",
+      "rear": "left"
+    },
+    "unfold_degrees": {
+      "right": -90.0,
+      "left": 90.0,
+      "top": 90.0,
+      "bottom": -90.0,
+      "rear": 90.0
+    },
+    "box_clearance_ratio": 0.12
+  },
+  "line_styles": {
+    "visible": {
+      "width_ratio": 0.0042,
+      "pattern": "solid"
+    },
+    "hidden": {
+      "width_ratio": 0.0026,
+      "pattern_ratios": [
+        0.065,
+        0.032
+      ],
+      "continuous_phase": true
+    },
+    "center": {
+      "width_ratio": 0.0022,
+      "pattern_ratios": [
+        0.1,
+        0.025,
+        0.01,
+        0.025
+      ],
+      "pattern_kind": "long_gap_dot_gap",
+      "continuous_phase": true
+    },
+    "tangent": {
+      "width_ratio": 0.0018,
+      "pattern": "solid"
+    },
+    "hatch": {
+      "width_ratio": 0.0014,
+      "pattern": "solid"
+    },
+    "section_cut": {
+      "width_ratio": 0.0038,
+      "pattern": "solid"
+    }
+  },
+  "views": {
+    "front": {
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": [
+        {
+          "role": "HATCH",
+          "points": [
+            [
+              0.0,
+              2.0
+            ],
+            [
+              10.0,
+              2.0
+            ]
+          ]
+        }
+      ]
+    },
+    "rear": {
+      "normal": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": []
+    },
+    "top": {
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": []
+    },
+    "bottom": {
+      "normal": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": []
+    },
+    "right": {
+      "normal": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": []
+    },
+    "left": {
+      "normal": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0
+          ]
+        ]
+      ],
+      "hidden": [
+        [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            10.0,
+            0.0
+          ]
+        ]
+      ],
+      "tangent": [
+        [
+          [
+            0.0,
+            5.0
+          ],
+          [
+            10.0,
+            5.0
+          ]
+        ]
+      ],
+      "center": [],
+      "annotations": []
+    }
+  },
+  "timing": {
+    "frame_start": 1,
+    "draw_start": 22,
+    "draw_end": 60,
+    "unfold_start": 70,
+    "unfold_end": 98,
+    "frame_end": 120
+  },
+  "render": {
+    "resolution_x": 960,
+    "resolution_y": 540,
+    "render_percentage": 100,
+    "fps": 24,
+    "preview_file": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\tests\\animation_rig_contract\\orthovideo_preview.png",
+    "video_file": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\tests\\animation_rig_contract\\orthovideo_animation.mp4",
+    "blend_file": "C:\\Users\\sager\\Desktop\\OrthoVideo\\output\\tests\\animation_rig_contract\\orthovideo_animation.blend",
+    "render_video": false,
+    "show_labels": false
+  }
+}

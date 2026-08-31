@@ -1,0 +1,57 @@
+{
+  "model": "models/componente_valvola.step",
+
+  "main_view": {
+    "normal": [0.0, -1.0, 0.0],
+    "up": [0.0, 0.0, 1.0]
+  },
+
+  "projection": {
+    "method": "first_angle",
+    "show_hidden": false,
+    "hidden_views": ["right", "left"],
+    "hidden_line_mode": "essential",
+    "show_centerlines": true,
+    "center_mark_only_views": ["top", "bottom"],
+    "tangent_edges": "omit",
+    "section_view": "front",
+    "section_reference_view": "left",
+    "section_offset_mm": 0.0,
+    "hatch_angle_deg": 45.0,
+    "hatch_spacing_mm": 5.0,
+    "pitch_circle_views": ["bottom"]
+  },
+
+  "sheet": {
+    "format": "A3",
+    "orientation": "landscape",
+    "margin_mm": 15.0,
+    "gap_mm": 20.0,
+    "automatic_scale": true,
+    "scale_mode": "iso",
+    "layout": "six_views",
+    "show_view_labels": true
+  },
+
+  "output": {
+    "directory": "output/componente_valvola",
+    "svg": true,
+    "pdf": true,
+    "dxf": true,
+    "mp4": true
+  },
+
+  "blender": {
+    "executable": "C:/Program Files/Blender Foundation/Blender 5.1/blender.exe"
+  },
+
+  "animation": {
+    "resolution_x": 960,
+    "resolution_y": 540,
+    "fps": 24,
+    "frame_end": 120,
+    "render_percentage": 100
+  },
+
+  "technical_annotations": []
+}
